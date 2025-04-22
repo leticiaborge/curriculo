@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet"> 
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
@@ -18,7 +28,13 @@
     </div>
     </header>
 
-    <sec</section>
+    <section class="descricao">
+        <p>Eu sou a Letícia Borges,tenho 16 anos, estudo no IFM, fazendo TI, é o meu segundo ano, quase finalizando.
+        </p>
+        <button id="botao"> Clique aqui!</button>
+    </section>
+
+    
      <section class="conteudo">
     <div class="bloco">
         <h2> Experiências anteriores</h2>
@@ -39,24 +55,27 @@
 
 
      <section class="falacomigo"> 
-     <h2>interessado no meu curriculo</h2>
-      <form> 
+     <h2>interessado no meu curriculo? </h2>
+      <form action="https://formspree.io/f/xrbqgevn"
+        method="POST">
+
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
         <label for="telefone">telefone:</label>
         <input placeholder="(66)**********" for="telefone" id="telefone" name="telefone" required>
-        <button type="submit"> Entrar em contato</button>
+        <button id="botao" type="submit"> Entrar em contato</button>
        </form>
      </section>
 
- 
+  
 
     <section class="conteudo">
         <div class="bloco">
+            <div id=card> 
             <h2> Sobre mim</h2>
-            <p> Eu sou a Letícia Borges, tenho 16 anos, estudante do IFMT.</p>
+            <p> Eu sou a Letícia Borges, tenho 16 anos, sou estudante do IFMT. estou aprendendo muito com várias experiências novas e desafiadoras, mas indo bem. </p> </div>
         </div class="bloco">
-
+    
 
             <div class="bloco">
                 <h2> meu canal</h2>
@@ -64,11 +83,11 @@
                 </div>
                 <div class="bloco">
                     <h2> Mensagem positiva </h2>
-                    <p> Ter um dia leve e feliz só depende de você. Faça acontecer! </p>
+                    <p> "A persistência leva ao sucesso."</p>
                 </div class="bloco">
             </section>
 
-
+<script src= "index.js"></script>
 <body>
 
 </html>

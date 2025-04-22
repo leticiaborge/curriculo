@@ -1,3 +1,12 @@
+*{   
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
 body{
     font-size: 20px;
 }
@@ -19,6 +28,14 @@ header .links a{
     color: rgba(224, 185, 157, 0.747);
     font-weight: bold ;
     margin: 0 10px;
+    font-family: "Roboto Mono";
+}
+
+h2{
+font-family: "Roboto Mono" ;
+font-weight: 400;
+font-style: normal;
+
 }
 .descricao{
     text-align: center;
